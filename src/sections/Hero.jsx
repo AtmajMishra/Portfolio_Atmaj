@@ -1,5 +1,6 @@
 import { section } from "motion/react-client";
 import HeroText from "../components/HeroText";
+import ParallaxBackground from "../components/ParallaxBackground";
 
 const Hero = () => {
     return (
@@ -8,6 +9,7 @@ const Hero = () => {
          c-space">
 
             <HeroText/>
+            <ParallaxBackground/>
          </section>
     );
 };

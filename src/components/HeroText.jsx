@@ -29,23 +29,47 @@ const HeroText = () => {
             A Developer <br/> Dedicated to Crafting
 
             </motion.p>
-            <motion.div><FlipWords words={words}
+            <motion.div
+            variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{delay:1.5}}><FlipWords words={words}
             className="font-black text-white text-8xl"/></motion.div>
-            <motion.p className="text-4xl font-medium text-neutral-300">Web Solutions</motion.p>
+            <motion.p className="text-4xl font-medium text-neutral-300"
+             variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{delay:1.8}}>Web Solutions</motion.p>
         </div>
       </div>
       {/* {Mobile View} */}    
       <div className="flex-col space-y-6 md:hidden">
-        <motion.p className="text-4xl font-medium">Hi, I'm Atmaj</motion.p>
+        <motion.p className="text-4xl font-medium"
+         variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{delay:1}}>Hi, I'm Atmaj</motion.p>
         <div>
-          <motion.p className="texl-5xl font-black text-neutral-300">
+          <motion.p className="texl-5xl font-black text-neutral-300"
+           variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{delay:1.2}}>
             A Developer <br />
  Dedicated to Crafting          </motion.p>
- <motion.div>
+ <motion.div
+ variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{delay:1.5}}>
   <FlipWords words={words}
   className="font-black text-white text-7xl"/>
  </motion.div>
- <motion.p className="text-4xl font-medium text-neutral-300">Web Solutions</motion.p>
+ <motion.p
+ variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{delay:1.8}} className="text-4xl font-medium text-neutral-300">Web Solutions</motion.p>
         </div>
       </div>
     </div>
