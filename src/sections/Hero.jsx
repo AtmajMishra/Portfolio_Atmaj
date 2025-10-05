@@ -3,9 +3,9 @@ import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 import { Astronaut } from "../components/Astronaut";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Float, Loader } from "@react-three/drei";
+import { Float} from "@react-three/drei";
 import { Suspense } from "react";
-
+import Loader from "../components/Loader";
 import {Flower} from "../components/Flower";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
@@ -21,7 +21,7 @@ const Hero = () => {
             <ParallaxBackground/>
             <figure className="absolute inset-0" style={{width:"100vw",height:"100vh"}} >
                 <Canvas camera={{position:[0,1,3]}}>
-                    <Suspense >
+                    <Suspense fallback={<Loader/>}>
 
                     <Float>
 
