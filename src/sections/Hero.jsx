@@ -19,7 +19,7 @@ const Hero = () => {
 
             <HeroText/>
             <ParallaxBackground/>
-            <figure className="absolute inset-0" style={{width:"100vw",height:"100vh"}} >
+            {/* <figure className="absolute inset-0" style={{width:"100vw",height:"100vh"}} >
                 <Canvas camera={{position:[0,1,3]}}>
                     <Suspense fallback={<Loader/>}>
 
@@ -32,7 +32,7 @@ const Hero = () => {
                     
                    
                 </Canvas>
-            </figure>
+            </figure> */}
          </section>
     );
 };
