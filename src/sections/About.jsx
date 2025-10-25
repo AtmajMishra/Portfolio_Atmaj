@@ -34,7 +34,7 @@ const About = () => {
        <Card style={{rotate:"90deg", bottom:"30%", left:"70%"}} text="Design Patterns"/>
        <Card style={{rotate:"-45deg", top:"55%", left:"0%"}} text="Design Principles"/>
        <Card style={{rotate:"20deg", top:"10%", left:"38%"}} text="SRP"/>
-       <Card style={{rotate:"30deg", top:"70%", left:"70%"}} image="/assets/logos/csharp-pink.png"/>
+       <Card style={{rotate:"30deg", top:"70%", left:"70%"}} image="assets/logos/csharp-pink.png"/>
         <Card style={{rotate:"-45deg", top:"70%", left:"25%"}} image="assets/logos/dotnet-pink.png"/>
          <Card style={{rotate:"30deg", top:"5%", left:"10%"}} image="assets/logos/blazor-pink.png"/>
         </div>

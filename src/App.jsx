@@ -9,16 +9,35 @@ import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 const App = () => {
   return (
-    <div className='container mx-auto max-w-7xl '>
+    <div className='container mx-auto max-w-7xl scroll-smooth'>
 
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Experiences/>
-      <Testimonial/>
-      <Contact/>
-      <Footer/>
+     <Navbar/>
+
+  <section id="home">
+    <Hero/>
+  </section>
+
+  <section id="about">
+    <About/>
+  </section>
+
+  <section id="work">
+    <Projects/>
+  </section>
+
+  <section id="experiences">
+    <Experiences/>
+  </section>
+
+  <section id="testimonial">
+    <Testimonial/>
+  </section>
+
+  <section id="contact">
+    <Contact/>
+  </section>
+
+  <Footer/>
 
 {/* <section  className='min-h-screen'/>
 <section  className='min-h-screen'/>

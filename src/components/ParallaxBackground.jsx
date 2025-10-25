@@ -15,14 +15,14 @@ const ParallaxBackground = () => {
         {/* Background Sky */}
         <div className="absolute inset-0 w-full h-screen -z-50"
         style={{
-          backgroundImage:"url(/assets/sky2.png)",
+          backgroundImage:"url(assets/sky2.png)",
           backgroundPosition:"bottom",
           backgroundSize:"cover",
         }}/>
         {/* Mountain Layer 3 */}
         <motion.div className="absolute inset-0 w-full h-screen -z-40"
         style={{
-          backgroundImage:"url(/assets/mountain2-3.png)",
+          backgroundImage:"url(assets/mountain2-3.png)",
           backgroundPosition:"bottom",
           backgroundSize:"cover",
           y:mountain3Y,
@@ -30,7 +30,7 @@ const ParallaxBackground = () => {
         {/* Planets */}
         <motion.div className="absolute inset-0 w-full h-screen -z-30"
         style={{
-          backgroundImage:"url(/assets/planets.png)",
+          backgroundImage:"url(assets/planets.png)",
           backgroundPosition:"bottom",
           backgroundSize:"cover",
           x:planetsX,
@@ -39,7 +39,7 @@ const ParallaxBackground = () => {
         <motion.div
         className="absolute inset-0 w-full h-screen -z-30"
         style={{
-          backgroundImage:"url(/assets/mountain-2.png)",
+          backgroundImage:"url(assets/mountain-2.png)",
           backgroundPosition:"bottom",
           backgroundSize:"cover",
           y: mountain2Y,
@@ -47,7 +47,7 @@ const ParallaxBackground = () => {
         {/* Mountain Layer 1 */}
         <motion.div  className="absolute inset-0 w-full h-screen -z-30"
         style={{
-          backgroundImage:"url(/assets/mountain-1.png)",
+          backgroundImage:"url(assets/mountain-1.png)",
           backgroundPosition:"bottom",
           backgroundSize:"cover",
           y:mountain1Y,
