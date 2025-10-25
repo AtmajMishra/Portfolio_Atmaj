@@ -3,7 +3,7 @@ import {motion} from "motion/react";
 
 
 const HeroText = () => {
-  const words=["Secure","Modern","Scalable"];
+  const words=["Reliable","Secure","Efficient"];
   const variants={
     hidden:{opacity:0, x:-50},
     visible:{opacity:1, x:0},
@@ -26,7 +26,8 @@ const HeroText = () => {
         initial="hidden"
         animate="visible"
         transition={{delay:1.2}}>
-            A Developer <br/> Dedicated to Crafting
+            Turning Ideas <br/> into Code 
+            <br/>Dedicated to Developing
 
             </motion.p>
             <motion.div
@@ -39,7 +40,7 @@ const HeroText = () => {
              variants={variants}
         initial="hidden"
         animate="visible"
-        transition={{delay:1.8}}>Web Solutions</motion.p>
+        transition={{delay:1.8}}>Web Applications</motion.p>
         </div>
       </div>
       {/* {Mobile View} */}    
