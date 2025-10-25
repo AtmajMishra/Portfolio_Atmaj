@@ -247,8 +247,8 @@ export const experiences = [
     job: "Dassault Systemes",
     date: "2024(JAN)-2024(JUL)",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
+      "Migrated the project build system from Vue CLI to Vite, resulting in significantly faster hot module replacement and improved development performance by 25%",
+      "Improved render performance for tables with 30+ columns using lazy loading and Vue Virtual Scroller",
       "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
       "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
       "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
@@ -259,11 +259,11 @@ export const experiences = [
     job: "Dassault Systemes",
     date: "2024-Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Configured monitoring tools to track system performance and troubleshoot issues",
+      "Documented system configurations and procedures for knowledge sharing within the team",
+      "Enhanced network efficiency by 30% by consolidating redundant API requests, cutting down payload size by 25% and improving load performance",
+      "Ensured data privacy for customers and partners through industry-compliant protocols.",
+      "Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
     ],
   },
   {
